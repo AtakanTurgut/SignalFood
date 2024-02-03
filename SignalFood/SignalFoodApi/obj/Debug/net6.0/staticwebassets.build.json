@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "41QpvLCCEsbF3iYvGfWsKKSvZwBqKn1KvROPhab+SCc=",
+  "Source": "SignalFoodApi",
+  "BasePath": "_content/SignalFoodApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
