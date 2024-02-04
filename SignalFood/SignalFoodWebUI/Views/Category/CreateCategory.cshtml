@@ -1,0 +1,34 @@
+﻿@model SignalFoodWebUI.Dtos.CategoryDtos.CreateCategoryDto
+
+@{
+    ViewData["Title"] = "CreateCategory";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <h4 class="page-title">Kategori Ekle</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <form method="post">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">Yeni Kategori Ekle</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="categoryName">Kategori Adı</label>
+                                <input type="text" class="form-control" asp-for="CategoryName" id="categoryName">
+                            </div>
+                        </div>
+                        <div class="card-action">
+                            <a asp-controller="Category" asp-action="Index" class="btn btn-primary">Liste</a>
+                            <button class="btn btn-success">Kategori Ekle</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -28,7 +28,7 @@ namespace SignalFoodApi.Controllers
             return Ok(values);
         }
 
-        [HttpGet("GetCategory")]
+        [HttpGet("{id}")]
         public IActionResult GetCategory(int id)
         {
             var value = _categoryService.TGetById(id);
@@ -48,7 +48,7 @@ namespace SignalFoodApi.Controllers
             return Ok("Kategori Eklendi.");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteCategory(int id)
         {
             var value = _categoryService.TGetById(id);
