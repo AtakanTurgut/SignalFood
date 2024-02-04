@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "XBjCnJ9CEIi5DWfxBjTfucIEHNbqwSNYFv8a13gqCphwXph9qsJjyq2BxjGAXM4hSsgnChjDnbD4gT42HIrCLg==",
+  "dgSpecHash": "4+5m3mHHVf/Jew1sqLnwAo1btQQLRTShkERsLhsLK3cOuSFCUUtZWByG7RMhZAyCpy3dpn1bewzJ79z2k8Yl5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Excalibur\\Desktop\\SignalFood\\SignalFood\\SignalFoodApi\\SignalFoodApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Excalibur\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Excalibur\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Excalibur\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\Excalibur\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Excalibur\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Excalibur\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Excalibur\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Excalibur\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.25\\microsoft.entityframeworkcore.6.0.25.nupkg.sha512",
