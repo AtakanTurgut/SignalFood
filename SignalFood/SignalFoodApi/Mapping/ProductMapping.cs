@@ -12,6 +12,7 @@ namespace SignalFoodApi.Mapping
             CreateMap<Product, GetProductDto>().ReverseMap();
             CreateMap<Product, ResultProductDto>().ReverseMap();
             CreateMap<Product, UpdateProductDto>().ReverseMap();
+            CreateMap<Product, ResultProductWithCategory>().ReverseMap();
         }
     }
 }

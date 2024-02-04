@@ -16,3 +16,5 @@ C:\Users\Excalibur\Desktop\SignalFood\SignalFood\BusinessLayer\obj\Debug\net6.0\
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\BusinessLayer\obj\Debug\net6.0\BusinessLayer.sourcelink.json
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\BusinessLayer\bin\Debug\net6.0\DtoLater.dll
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\BusinessLayer\bin\Debug\net6.0\DtoLater.pdb

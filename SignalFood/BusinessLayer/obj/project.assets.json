@@ -742,6 +742,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "DtoLater": "1.0.0",
           "EntityLayer": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.25",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.25"
@@ -751,6 +752,16 @@
         },
         "runtime": {
           "bin/placeholder/DataAccessLayer.dll": {}
+        }
+      },
+      "DtoLater/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DtoLater.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DtoLater.dll": {}
         }
       },
       "EntityLayer/1.0.0": {
@@ -1932,6 +1943,11 @@
       "type": "project",
       "path": "../DataAccessLayer/DataAccessLayer.csproj",
       "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
+    },
+    "DtoLater/1.0.0": {
+      "type": "project",
+      "path": "../DtoLater/DtoLater.csproj",
+      "msbuildProject": "../DtoLater/DtoLater.csproj"
     },
     "EntityLayer/1.0.0": {
       "type": "project",

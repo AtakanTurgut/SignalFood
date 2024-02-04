@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
 using BusinessLayer.Abstract;
+using DataAccessLayer.Concrete;
 using DtoLater.ProductDto;
 using EntityLayer.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace SignalFoodApi.Controllers
 {
@@ -34,6 +36,25 @@ namespace SignalFoodApi.Controllers
             var value = _productService.TGetById(id);
 
             return Ok(value);
+        }
+
+        [HttpGet("ProductListWithCategory")]
+        public IActionResult ProductListWithCategory()
+        {
+            var context = new SignalContext();
+
+            var values = context.Products.Include(x => x.Category).Select(y => new ResultProductWithCategory
+            {
+                ProductId = y.ProductId,
+                ProductName = y.ProductName,
+                Price = y.Price,
+                Description = y.Description,
+                ImageUrl = y.ImageUrl,
+                ProductStatus = y.ProductStatus,
+                CategoryName = y.Category.CategoryName
+            });
+
+            return Ok(values.ToList());
         }
 
         [HttpPost]

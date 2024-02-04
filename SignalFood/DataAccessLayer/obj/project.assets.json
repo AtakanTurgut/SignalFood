@@ -783,6 +783,16 @@
           }
         }
       },
+      "DtoLater/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DtoLater.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DtoLater.dll": {}
+        }
+      },
       "EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2014,6 +2024,11 @@
         "version.txt"
       ]
     },
+    "DtoLater/1.0.0": {
+      "type": "project",
+      "path": "../DtoLater/DtoLater.csproj",
+      "msbuildProject": "../DtoLater/DtoLater.csproj"
+    },
     "EntityLayer/1.0.0": {
       "type": "project",
       "path": "../EntityLayer/EntityLayer.csproj",
@@ -2022,6 +2037,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DtoLater >= 1.0.0",
       "EntityLayer >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.25",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.25",
@@ -2061,6 +2077,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Excalibur\\Desktop\\SignalFood\\SignalFood\\DtoLater\\DtoLater.csproj": {
+              "projectPath": "C:\\Users\\Excalibur\\Desktop\\SignalFood\\SignalFood\\DtoLater\\DtoLater.csproj"
+            },
             "C:\\Users\\Excalibur\\Desktop\\SignalFood\\SignalFood\\EntityLayer\\EntityLayer.csproj": {
               "projectPath": "C:\\Users\\Excalibur\\Desktop\\SignalFood\\SignalFood\\EntityLayer\\EntityLayer.csproj"
             }

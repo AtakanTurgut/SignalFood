@@ -16,3 +16,5 @@ C:\Users\Excalibur\Desktop\SignalFood\SignalFood\DataAccessLayer\obj\Debug\net6.
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.sourcelink.json
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\DataAccessLayer\bin\Debug\net6.0\DtoLater.dll
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\DataAccessLayer\bin\Debug\net6.0\DtoLater.pdb
