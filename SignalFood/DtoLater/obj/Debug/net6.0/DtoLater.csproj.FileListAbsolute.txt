@@ -9,3 +9,4 @@ C:\Users\Excalibur\Desktop\SignalFood\SignalFood\DtoLater\obj\Debug\net6.0\DtoLa
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\DtoLater\obj\Debug\net6.0\refint\DtoLater.dll
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\DtoLater\obj\Debug\net6.0\DtoLater.pdb
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\DtoLater\obj\Debug\net6.0\ref\DtoLater.dll
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\DtoLater\obj\Debug\net6.0\DtoLater.sourcelink.json

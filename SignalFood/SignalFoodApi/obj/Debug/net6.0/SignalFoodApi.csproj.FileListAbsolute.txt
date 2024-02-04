@@ -72,3 +72,8 @@ C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodApi\obj\Debug\net6.0\
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodApi\obj\Debug\net6.0\SignalFoodApi.pdb
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodApi\obj\Debug\net6.0\SignalFoodApi.genruntimeconfig.cache
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodApi\obj\Debug\net6.0\ref\SignalFoodApi.dll
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodApi\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodApi\bin\Debug\net6.0\DtoLater.dll
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodApi\bin\Debug\net6.0\DtoLater.pdb
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodApi\obj\Debug\net6.0\SignalFoodApi.sourcelink.json
