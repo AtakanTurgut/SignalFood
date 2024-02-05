@@ -15,6 +15,6 @@ namespace DtoLater.ProductDto
         public string? ImageUrl { get; set; }
         public bool ProductStatus { get; set; }
 
-        public string CategoryName { get; set; }
+        public string? CategoryName { get; set; }
     }
 }
