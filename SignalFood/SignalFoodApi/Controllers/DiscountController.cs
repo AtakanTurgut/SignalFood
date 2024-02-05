@@ -28,7 +28,7 @@ namespace SignalFoodApi.Controllers
             return Ok(values);
         }
 
-        [HttpGet("GetDiscount")]
+        [HttpGet("{id}")]
         public IActionResult GetDiscount(int id)
         {
             var value = _discountService.TGetById(id);
@@ -50,7 +50,7 @@ namespace SignalFoodApi.Controllers
             return Ok("İndirim Eklendi.");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteDiscount(int id)
         {
             var value = _discountService.TGetById(id);
