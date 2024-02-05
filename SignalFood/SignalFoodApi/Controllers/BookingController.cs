@@ -25,7 +25,7 @@ namespace SignalFoodApi.Controllers
             return Ok(values);
         }
 
-        [HttpGet("GetBooking")]
+        [HttpGet("{id}")]
         public IActionResult GetBooking(int id)
         {
             var value = _bookingService.TGetById(id);
@@ -50,7 +50,7 @@ namespace SignalFoodApi.Controllers
             return Ok("Rezervasyon Yapıldı.");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteBooking(int id)
         {
             var value = _bookingService.TGetById(id);
