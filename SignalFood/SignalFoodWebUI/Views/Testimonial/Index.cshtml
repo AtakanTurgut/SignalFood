@@ -1,0 +1,53 @@
+﻿@model List<ResultTestimonialDto>
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Müşteri Yorumları İşlemleri</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">Yorum Listesi</div>
+					</div>
+					<div class="card-body">
+						<div class="card-sub">
+							Müşterilerin yapmış olduğu yorumların listesidir.
+						</div>
+						<table class="table mt-3">
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Müşteri Adı Soyadı</th>
+									<th scope="col">Müşteri Ünvanı</th>
+									<th scope="col">Müşteri Yorumu</th>
+									<th scope="col">Güncelle</th>
+									<th scope="col">Sil</th>
+								</tr>
+							</thead>
+							<tbody>
+								@foreach (var item in Model)
+								{
+									<tr>
+										<td>@item.TestimonialId</td>
+										<td>@item.TestimonialName</td>
+										<td>@item.Title</td>
+										<td>@item.Commend</td>
+										<td><a href="/Testimonial/UpdateTestimonial/@item.TestimonialId" class="btn btn-info">Güncelle</a></td>
+										<td><a href="/Testimonial/DeleteTestimonial/@item.TestimonialId" class="btn btn-danger">Sil</a></td>
+									</tr>
+								}
+							</tbody>
+						</table>
+						<a asp-controller="Testimonial" asp-action="CreateTestimonial" class="btn btn-primary">Yorum Ekle</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

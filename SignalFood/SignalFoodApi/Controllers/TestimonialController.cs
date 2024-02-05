@@ -28,7 +28,7 @@ namespace SignalFoodApi.Controllers
             return Ok(values);
         }
 
-        [HttpGet("GetTestimonial")]
+        [HttpGet("{id}")]
         public IActionResult GetTestimonial(int id)
         {
             var value = _testimonialService.TGetById(id);
@@ -51,7 +51,7 @@ namespace SignalFoodApi.Controllers
             return Ok("Müşteri Yorumu Eklendi.");
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteTestimonial(int id)
         {
             var value = _testimonialService.TGetById(id);
