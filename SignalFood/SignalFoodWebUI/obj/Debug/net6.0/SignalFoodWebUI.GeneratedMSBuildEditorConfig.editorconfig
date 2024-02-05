@@ -58,6 +58,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Contact/CreateContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDcmVhdGVDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Contact/UpdateContact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxVcGRhdGVDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
