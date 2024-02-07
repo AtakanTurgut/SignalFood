@@ -31,6 +31,15 @@ namespace DataAccessLayer.EntityFramework
 				.Select(y => y.TotalPrice).FirstOrDefault();	
 		}
 
+		public decimal TodayTotalPrice()
+		{
+			//using var context = new SignalContext();
+
+			//return context.Orders.Where(x => x.OrderDate == DateTime.Parse(DateTime.Now.ToShortDateString()))
+			//	.Sum(y => y.TotalPrice);
+			return 0;
+		}
+
 		public int TotalOrderCount()
 		{
 			using var context = new SignalContext();

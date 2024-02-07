@@ -18,3 +18,4 @@
 -- Kasadaki Tutar
 -- Bugünkü Kazanç
 -- Masa Sayısı
+--	--	--	--	--	--	--	--	--	--	--	--
