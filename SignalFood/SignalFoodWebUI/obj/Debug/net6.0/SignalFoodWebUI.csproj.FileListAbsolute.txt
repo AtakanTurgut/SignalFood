@@ -224,3 +224,4 @@ C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\bin\Debug\net6.
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\obj\Debug\net6.0\SignalFoodWebUI.csproj.AssemblyReference.cache
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\obj\Debug\net6.0\SignalFoodWebUI.sourcelink.json
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\obj\Debug\net6.0\SignalFoodWebUI.csproj.CopyComplete
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\bin\Debug\net6.0\libman.json
