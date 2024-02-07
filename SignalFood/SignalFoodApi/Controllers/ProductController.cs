@@ -101,5 +101,47 @@ namespace SignalFoodApi.Controllers
             return Ok("Ürün Güncellendi!");
         }
 
-    }
+        [HttpGet("ProductCount")]
+        public IActionResult ProductCount()
+        {
+            return Ok(_productService.TProductCount());
+        }
+
+		[HttpGet("ProductCountByCategoryNameHamburger")]
+		public IActionResult ProductCountByCategoryNameHamburger()
+		{
+			return Ok(_productService.TProductCountByCategoryNameHamburger());
+		}
+
+		[HttpGet("ProductCountByCategoryNameDrink")]
+		public IActionResult ProductCountByCategoryNameDrink()
+		{
+			return Ok(_productService.TProductCountByCategoryNameDrink());
+		}
+
+		[HttpGet("ProductPriceAvg")]
+		public IActionResult ProductPriceAvg()
+		{
+			return Ok(_productService.TProductPriceAvg());
+		}
+
+		[HttpGet("ProductNameByMaxPrice")]
+		public IActionResult ProductNameByMaxPrice()
+		{
+			return Ok(_productService.TProductNameByMaxPrice());
+		}
+
+		[HttpGet("ProductNameByMinPrice")]
+		public IActionResult ProductNameByMinPrice()
+		{
+			return Ok(_productService.TProductNameByMinPrice());
+		}
+
+		[HttpGet("ProductAvgPriceByHamburger")]
+		public IActionResult ProductAvgPriceByHamburger()
+		{
+			return Ok(_productService.TProductAvgPriceByHamburger());
+		}
+
+	}
 }
