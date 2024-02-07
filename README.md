@@ -1,6 +1,6 @@
 # SignalFood
 
-### SignalFood Project Layers
+### Project Layers
 ```cs
     EntityLayer
     DataAccessLayer => EntityLayer + DtoLayer
