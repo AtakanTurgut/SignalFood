@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SignalFoodWebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44d8d0c123321d3143483aee0fa6323b1e06e61a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85357080d3b1637b6f0fd3dccd14782ba9d3e34e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignalFoodWebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignalFoodWebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

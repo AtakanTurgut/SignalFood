@@ -44,7 +44,6 @@ namespace SignalFoodApi.Hubs
 			var count2 = _categoryService.TPassiveCategoryCount();
 			await Clients.All.SendAsync("ReceivePassiveCategoryCount", count2);
 		}
-
 		public async Task SendStatistics()
         {
 			var count1 = _productService.TProductCountByCategoryNameHamburger();
@@ -81,6 +80,18 @@ namespace SignalFoodApi.Hubs
 
 			var count12 = _menuTableService.TMenuTableCount();
 			await Clients.All.SendAsync("ReceiveMenuTableCount", count12);
+		}
+
+		public async Task SendProgress()
+		{
+			var count1 = _moneyCaseService.TTotalMoneyCaseAmount();
+			await Clients.All.SendAsync("ReceiveTotalMoneyCaseAmount", count1.ToString("0.00") + Currency);
+
+			var count2 = _orderService.TActiveOrderCount();
+			await Clients.All.SendAsync("ReceiveActiveOrderCount", count2);
+
+			var count3 = _menuTableService.TMenuTableCount();
+			await Clients.All.SendAsync("ReceiveMenuTableCount", count3);
 		}
 
 	}
