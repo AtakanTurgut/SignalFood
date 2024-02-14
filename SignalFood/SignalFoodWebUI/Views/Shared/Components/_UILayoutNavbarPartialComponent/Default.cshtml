@@ -6,7 +6,7 @@
     <header class="header_section">
         <div class="container">
             <nav class="navbar navbar-expand-lg custom_nav-container ">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" asp-controller="Default" asp-action="Index">
                     <span>
                         SignalFood
                     </span>
@@ -19,16 +19,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav  mx-auto ">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home </a>
+                            <a class="nav-link" asp-controller="Default" asp-action="Index">Ana Sayfa </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="menu.html">Menu</a>
+                            <a class="nav-link" asp-controller="Menu" asp-action="Index">Menü</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" asp-controller="AboutUI" asp-action="Index">Hakkımızda</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="book.html">Book Table <span class="sr-only">(current)</span> </a>
+                            <a class="nav-link" asp-controller="BookATable" asp-action="Index">Rezervasyon <span class="sr-only">(current)</span> </a>
                         </li>
                     </ul>
                     <div class="user_option">
@@ -94,8 +94,8 @@
                                 <i class="fa fa-search" aria-hidden="true"></i>
                             </button>
                         </form>
-                        <a href="" class="order_online">
-                            Order Online
+                        <a asp-controller="Menu" asp-action="Index" class="order_online">
+                            Sipariş Ver
                         </a>
                     </div>
                 </div>

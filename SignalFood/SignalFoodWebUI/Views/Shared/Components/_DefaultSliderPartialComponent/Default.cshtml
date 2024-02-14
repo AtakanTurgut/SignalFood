@@ -1,5 +1,11 @@
-﻿<section class="slider_section ">
+﻿@model List<ResultFeatureDto>
+@{
+    int count = 0;
+}
+
+<section class="slider_section ">
     <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="container ">
@@ -10,11 +16,11 @@
                                     SignalFood
                                 </h1>
                                 <p>
-                                    Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+                                    SignalFood, damak zevkinize hitap eden çeşitli lezzetlerle dolu bir restoran deneyimi sunuyor. Herkesin favorisi olan hamburgerlerden, nefis pizzalara; sağlıklı ve taze salatalardan, tatlı krizlerinizi gideren atıştırmalıklara kadar geniş bir menü yelpazesine sahibiz.
                                 </p>
                                 <div class="btn-box">
-                                    <a href="" class="btn1">
-                                        Order Now
+                                    <a asp-controller="Menu" asp-action="Index" class="btn1">
+                                        Sipariş Ver
                                     </a>
                                 </div>
                             </div>
@@ -22,57 +28,41 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item ">
-                <div class="container ">
-                    <div class="row">
-                        <div class="col-md-7 col-lg-6 ">
-                            <div class="detail-box">
-                                <h1>
-                                    Fast Food Restaurant
-                                </h1>
-                                <p>
-                                    Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
-                                </p>
-                                <div class="btn-box">
-                                    <a href="" class="btn1">
-                                        Order Now
-                                    </a>
+            @foreach (var item in Model)
+            {
+                count++;    @* 1 2 3 ...*@
+                <div class="carousel-item">
+                    <div class="container ">
+                        <div class="row">
+                            <div class="col-md-7 col-lg-6 ">
+                                <div class="detail-box">
+                                    <h1>
+                                        @item.Title
+                                    </h1>
+                                    <p>
+                                        @item.Description
+                                    </p>
+                                    <div class="btn-box">
+                                        <a asp-controller="Menu" asp-action="Index" class="btn1">
+                                            Sipariş Ver
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container ">
-                    <div class="row">
-                        <div class="col-md-7 col-lg-6 ">
-                            <div class="detail-box">
-                                <h1>
-                                    Fast Food Restaurant
-                                </h1>
-                                <p>
-                                    Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
-                                </p>
-                                <div class="btn-box">
-                                    <a href="" class="btn1">
-                                        Order Now
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            }       
         </div>
         <div class="container">
             <ol class="carousel-indicators">
                 <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
-                <li data-target="#customCarousel1" data-slide-to="1"></li>
-                <li data-target="#customCarousel1" data-slide-to="2"></li>
+                @for (int i = 1; i <= count; i++)
+                {
+                    <li data-target="#customCarousel1" data-slide-to="@i"></li>
+                }
             </ol>
         </div>
     </div>
-
 </section>
 </div>
