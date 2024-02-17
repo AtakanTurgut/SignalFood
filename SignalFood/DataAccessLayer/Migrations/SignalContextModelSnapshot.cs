@@ -44,6 +44,38 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Abouts");
                 });
 
+            modelBuilder.Entity("EntityLayer.Entities.Basket", b =>
+                {
+                    b.Property<int>("BasketId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BasketId"), 1L, 1);
+
+                    b.Property<decimal>("Count")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("MenuTableId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("TotalPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("BasketId");
+
+                    b.HasIndex("MenuTableId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("Baskets");
+                });
+
             modelBuilder.Entity("EntityLayer.Entities.Booking", b =>
                 {
                     b.Property<int>("BookingId")
@@ -347,6 +379,25 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Testimonials");
                 });
 
+            modelBuilder.Entity("EntityLayer.Entities.Basket", b =>
+                {
+                    b.HasOne("EntityLayer.Entities.MenuTable", "MenuTable")
+                        .WithMany("Baskets")
+                        .HasForeignKey("MenuTableId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EntityLayer.Entities.Product", "Product")
+                        .WithMany("Baskets")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("MenuTable");
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("EntityLayer.Entities.OrderDetail", b =>
                 {
                     b.HasOne("EntityLayer.Entities.Order", "Order")
@@ -382,6 +433,11 @@ namespace DataAccessLayer.Migrations
                     b.Navigation("Products");
                 });
 
+            modelBuilder.Entity("EntityLayer.Entities.MenuTable", b =>
+                {
+                    b.Navigation("Baskets");
+                });
+
             modelBuilder.Entity("EntityLayer.Entities.Order", b =>
                 {
                     b.Navigation("OrderDetails");
@@ -389,6 +445,8 @@ namespace DataAccessLayer.Migrations
 
             modelBuilder.Entity("EntityLayer.Entities.Product", b =>
                 {
+                    b.Navigation("Baskets");
+
                     b.Navigation("OrderDetails");
                 });
 #pragma warning restore 612, 618
