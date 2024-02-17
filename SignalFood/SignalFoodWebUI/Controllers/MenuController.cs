@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using SignalFoodWebUI.Dtos.BasketDtos;
 using SignalFoodWebUI.Dtos.ProductDtos;
+using System.Text;
 
 namespace SignalFoodWebUI.Controllers
 {
@@ -28,5 +30,26 @@ namespace SignalFoodWebUI.Controllers
 
             return View();
         }
+
+        [HttpPost]
+        public async Task<IActionResult> AddBasket(int id)
+        {
+            CreateBasketDto createBasketDto = new CreateBasketDto();
+            createBasketDto.ProductId = id;
+
+            var client = _httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(createBasketDto); // string -> json
+
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PostAsync("https://localhost:7116/api/Basket", stringContent);
+
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+
+            return Json(createBasketDto);
+        }
+
     }
 }
