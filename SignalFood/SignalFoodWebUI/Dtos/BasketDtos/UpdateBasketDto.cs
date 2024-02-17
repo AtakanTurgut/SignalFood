@@ -9,6 +9,7 @@
         public decimal TotalPrice { get; set; }
 
         public int ProductId { get; set; }
+        public string? ProductName { get; set; }
         //public Product? Product { get; set; }
 
         public int MenuTableId { get; set; }
