@@ -12,9 +12,11 @@ namespace SignalFoodApi.Hubs
 		private readonly IMoneyCaseService _moneyCaseService;
 		private readonly IMenuTableService _menuTableService;
 		private readonly IBookingService _bookingService;
+		private readonly INotificationService _notificationService;
 
         public SignalRHub(ICategoryService categoryService, IProductService productService, IOrderService orderService,
-                            IMoneyCaseService moneyCaseService, IMenuTableService menuTableService, IBookingService bookingService)
+                            IMoneyCaseService moneyCaseService, IMenuTableService menuTableService, IBookingService bookingService,
+							INotificationService notificationService)
         {
             _categoryService = categoryService;
             _productService = productService;
@@ -22,6 +24,7 @@ namespace SignalFoodApi.Hubs
             _moneyCaseService = moneyCaseService;
             _menuTableService = menuTableService;
             _bookingService = bookingService;
+            _notificationService = notificationService;
         }
 
         internal string Currency = "₺";
@@ -102,5 +105,14 @@ namespace SignalFoodApi.Hubs
 			await Clients.All.SendAsync("ReceiveBookingList", count);
         }
 
-	}
+		public async Task SendNotification()
+		{
+            var count = _notificationService.TNotificationCountByStatusFalse();
+            await Clients.All.SendAsync("ReceiveNotificationCountByStatusFalse", count);
+
+            var notificationListByStatusFalse = _notificationService.TGetAllNotificationByStatusFalse();
+            await Clients.All.SendAsync("ReceiveNotificationListByStatusFalse", notificationListByStatusFalse);
+        }
+
+    }
 }

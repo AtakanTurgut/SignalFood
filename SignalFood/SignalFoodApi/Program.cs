@@ -68,6 +68,9 @@ builder.Services.AddScoped<IMenuTableDal, EfMenuTableDal>();
 
 builder.Services.AddScoped<IBasketService, BasketManager>();
 builder.Services.AddScoped<IBasketDal, EfBasketDal>();
+
+builder.Services.AddScoped<INotificationService, NotificationManager>();
+builder.Services.AddScoped<INotificationDal, EfNotificationDal>();
 /**/
 
 // A possible object cycle was detected. - Cycle Was Detected Hatasý ve Çözümü
