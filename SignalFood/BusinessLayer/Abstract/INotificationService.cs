@@ -12,5 +12,8 @@ namespace BusinessLayer.Abstract
         int TNotificationCountByStatusFalse();
         List<Notification> TGetAllNotificationByStatusFalse();
 
-    }
+		void TNotificationStatusChangeToTrue(int id);
+		void TNotificationStatusChangeToFalse(int id);
+
+	}
 }

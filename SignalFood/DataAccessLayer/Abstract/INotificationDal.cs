@@ -11,5 +11,9 @@ namespace DataAccessLayer.Abstract
     {
         int NotificationCountByStatusFalse();
         List<Notification> GetAllNotificationByStatusFalse();
-    }
+
+        void NotificationStatusChangeToTrue(int id);
+        void NotificationStatusChangeToFalse(int id);
+
+	}
 }

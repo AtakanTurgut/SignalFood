@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.EntityFramework
 {
-    public class EfNotificationDal : GenericRepository<Notification>, INotificationDal
+	public class EfNotificationDal : GenericRepository<Notification>, INotificationDal
     {
         public EfNotificationDal(SignalContext context) : base(context)
         {
@@ -29,5 +29,24 @@ namespace DataAccessLayer.EntityFramework
             
             return context.Notifications.Where(x => x.Status == false).Count();
         }
-    }
+
+		public void NotificationStatusChangeToFalse(int id)
+		{
+			using var context = new SignalContext();
+			var value = context.Notifications.Find(id);
+			value.Status = false;
+
+			context.SaveChanges();
+		}
+
+		public void NotificationStatusChangeToTrue(int id)
+		{
+            using var context = new SignalContext();
+            var value = context.Notifications.Find(id);
+            value.Status = true;
+
+            context.SaveChanges();
+        }
+
+	}
 }
