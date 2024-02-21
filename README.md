@@ -9,6 +9,12 @@
     SignalFoodWebUI
 ```
 
+## Addresses
+```cs
+Web Site    =  https://localhost:7015/Default/Index
+Admin Page  =  https://localhost:7015//Statistic/Index
+```
+
 ### Packages of SignalFood Project Layers
 ```cs
     DataAccessLayer
