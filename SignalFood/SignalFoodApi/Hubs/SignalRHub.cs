@@ -114,5 +114,11 @@ namespace SignalFoodApi.Hubs
             await Clients.All.SendAsync("ReceiveNotificationListByStatusFalse", notificationListByStatusFalse);
         }
 
+		public async Task GetMenuTableStatus()
+		{
+			var value = _menuTableService.TGetAll();
+			await Clients.All.SendAsync("ReceiveMenuTableStatus", value);
+		}
+
     }
 }
