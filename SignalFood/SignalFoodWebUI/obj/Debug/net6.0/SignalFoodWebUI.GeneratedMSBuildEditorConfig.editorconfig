@@ -9,279 +9,279 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SignalFoodWebUI
 build_property.RootNamespace = SignalFoodWebUI
-build_property.ProjectDir = C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\
+build_property.ProjectDir = c:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI
+build_property.MSBuildProjectDirectory = c:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/About/CreateAbout.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/About/CreateAbout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQ3JlYXRlQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/About/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/About/UpdateAbout.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/About/UpdateAbout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcVXBkYXRlQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/AdminLayout/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/AdminLayout/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Basket/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Basket/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFza2V0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/BookATable/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/BookATable/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va0FUYWJsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Booking/CreateBooking.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Booking/CreateBooking.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xDcmVhdGVCb29raW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Booking/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Booking/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Booking/UpdateBooking.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Booking/UpdateBooking.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xVcGRhdGVCb29raW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Category/CreateCategory.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Category/CreateCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Category/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Category/UpdateCategory.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Category/UpdateCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Contact/CreateContact.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Contact/CreateContact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDcmVhdGVDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Contact/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Contact/UpdateContact.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Contact/UpdateContact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxVcGRhdGVDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Default/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Default/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Discount/CreateDiscount.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Discount/CreateDiscount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRcQ3JlYXRlRGlzY291bnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Discount/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Discount/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Discount/UpdateDiscount.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Discount/UpdateDiscount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRcVXBkYXRlRGlzY291bnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Feature/CreateFeature.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Feature/CreateFeature.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVhdHVyZVxDcmVhdGVGZWF0dXJlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Feature/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Feature/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVhdHVyZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Feature/UpdateFeature.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Feature/UpdateFeature.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVhdHVyZVxVcGRhdGVGZWF0dXJlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/MenuTable/CreateMenuTable.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/MenuTable/CreateMenuTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVRhYmxlXENyZWF0ZU1lbnVUYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/MenuTable/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/MenuTable/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVRhYmxlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/MenuTable/TableListByStatus.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/MenuTable/TableListByStatus.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVRhYmxlXFRhYmxlTGlzdEJ5U3RhdHVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/MenuTable/UpdateMenuTable.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/MenuTable/UpdateMenuTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVRhYmxlXFVwZGF0ZU1lbnVUYWJsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Menu/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Menu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Message/ClientUserCount.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Message/ClientUserCount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxDbGllbnRVc2VyQ291bnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Message/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Message/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Notification/CreateNotification.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Notification/CreateNotification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uXENyZWF0ZU5vdGlmaWNhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Notification/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Notification/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Notification/UpdateNotification.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Notification/UpdateNotification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uXFVwZGF0ZU5vdGlmaWNhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Product/CreateProduct.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Product/CreateProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGVQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Product/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Product/UpdateProduct.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Product/UpdateProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGVQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/ProgressBar/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/ProgressBar/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZ3Jlc3NCYXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_DefaultAboutPartialComponent/Default.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_DefaultAboutPartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0RlZmF1bHRBYm91dFBhcnRpYWxDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_DefaultBookATablePartialComponent/Default.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_DefaultBookATablePartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0RlZmF1bHRCb29rQVRhYmxlUGFydGlhbENvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_DefaultOfferPartialComponent/Default.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_DefaultOfferPartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0RlZmF1bHRPZmZlclBhcnRpYWxDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_DefaultOurMenuPartialComponent/Default.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_DefaultOurMenuPartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0RlZmF1bHRPdXJNZW51UGFydGlhbENvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_DefaultSliderPartialComponent/Default.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_DefaultSliderPartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0RlZmF1bHRTbGlkZXJQYXJ0aWFsQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_DefaultTestimonialPartialComponent/Default.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_DefaultTestimonialPartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0RlZmF1bHRUZXN0aW1vbmlhbFBhcnRpYWxDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_LayoutFooterPartialComponent/Default.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_LayoutFooterPartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xheW91dEZvb3RlclBhcnRpYWxDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_LayoutHeaderPartialComponent/Default.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_LayoutHeaderPartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xheW91dEhlYWRlclBhcnRpYWxDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_LayoutNavbarPartialComponent/Default.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_LayoutNavbarPartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xheW91dE5hdmJhclBhcnRpYWxDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_LayoutScriptPartialComponent/Default.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_LayoutScriptPartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xheW91dFNjcmlwdFBhcnRpYWxDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_LayoutSidebarPartialComponent/Default.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_LayoutSidebarPartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0xheW91dFNpZGViYXJQYXJ0aWFsQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_MenuNavbarPartialComponent/Default.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_MenuNavbarPartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbnVOYXZiYXJQYXJ0aWFsQ29tcG9uZW50XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_UILayoutFooterPartialComponent/Default.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_UILayoutFooterPartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1VJTGF5b3V0Rm9vdGVyUGFydGlhbENvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_UILayoutHeadPartialComponent/Default.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_UILayoutHeadPartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1VJTGF5b3V0SGVhZFBhcnRpYWxDb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_UILayoutNavbarPartialComponent/Default.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_UILayoutNavbarPartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1VJTGF5b3V0TmF2YmFyUGFydGlhbENvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_UILayoutScriptPartialComponent/Default.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Components/_UILayoutScriptPartialComponent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1VJTGF5b3V0U2NyaXB0UGFydGlhbENvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Error.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/SignalRDefault/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/SignalRDefault/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbmFsUkRlZmF1bHRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/SignalRDefault/Index2.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/SignalRDefault/Index2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbmFsUkRlZmF1bHRcSW5kZXgyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/SocialMedia/CreateSocialMedia.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/SocialMedia/CreateSocialMedia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWFsTWVkaWFcQ3JlYXRlU29jaWFsTWVkaWEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/SocialMedia/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/SocialMedia/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWFsTWVkaWFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/SocialMedia/UpdateSocialMedia.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/SocialMedia/UpdateSocialMedia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29jaWFsTWVkaWFcVXBkYXRlU29jaWFsTWVkaWEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Statistic/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Statistic/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Testimonial/CreateTestimonial.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Testimonial/CreateTestimonial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxcQ3JlYXRlVGVzdGltb25pYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Testimonial/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Testimonial/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Testimonial/UpdateTestimonial.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Testimonial/UpdateTestimonial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxcVXBkYXRlVGVzdGltb25pYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/UILayout/Index.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/UILayout/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVUlMYXlvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/_ViewImports.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/_ViewStart.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/_Layout.cshtml]
+[c:/Users/Excalibur/Desktop/SignalFood/SignalFood/SignalFoodWebUI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-01zzv79bld

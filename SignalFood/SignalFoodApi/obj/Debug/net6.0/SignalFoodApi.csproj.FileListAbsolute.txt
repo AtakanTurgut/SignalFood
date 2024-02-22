@@ -77,3 +77,8 @@ C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodApi\bin\Debug\net6.0\
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodApi\bin\Debug\net6.0\DtoLater.dll
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodApi\bin\Debug\net6.0\DtoLater.pdb
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodApi\obj\Debug\net6.0\SignalFoodApi.sourcelink.json
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodApi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodApi\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodApi\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodApi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodApi\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

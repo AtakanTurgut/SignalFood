@@ -6,7 +6,8 @@
     DataAccessLayer => EntityLayer + DtoLayer
     BusinessLayer   => DataAccessLayer + EntityLayer + DtoLayer
     SignalFoodApi   => BusinessLayer + DataAccessLayer + EntityLayer + DtoLayer
-    SignalFoodWebUI
+    
+    SignalFoodWebUI => DataAccessLayer + EntityLayer + DtoLayer
 ```
 
 ## Addresses
@@ -17,11 +18,18 @@ Admin Page  =  https://localhost:7281//Statistic/Index
 
 ### Packages of SignalFood Project Layers
 ```cs
+    EntityLayer
+    -- Microsoft.AspNetCore.Identity 2.2.0
+    -- Microsoft.AspNetCore.Identity.EntityFrameworkCore 6.0.25
+```
+```cs
     DataAccessLayer
     - Microsoft.EntityFrameworkCore 6.0.25
     - Microsoft.EntityFrameworkCore.Design 6.0.25
     - Microsoft.EntityFrameworkCore.SqlServer 6.0.25
     - Microsoft.EntityFrameworkCore.Tools 6.0.25
+    -- Microsoft.AspNetCore.Identity 2.2.0
+    -- Microsoft.AspNetCore.Identity.EntityFrameworkCore 6.0.25
 ```
 ```cs
     SignalFoodApi
@@ -33,6 +41,10 @@ Admin Page  =  https://localhost:7281//Statistic/Index
 ```cs
     SignalFoodWebUI
     - client-side library - @microsoft/signalr@6.0.6
+    -- Microsoft.AspNetCore.Identity 2.2.0
+    -- Microsoft.AspNetCore.Identity.EntityFrameworkCore 6.0.25
+    -- Microsoft.EntityFrameworkCore 6.0.25
+    -- Microsoft.EntityFrameworkCore.Design 6.0.25
 ```
 
 Use this commands for the `Migration Operations`:

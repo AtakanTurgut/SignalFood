@@ -10,3 +10,4 @@ C:\Users\Excalibur\Desktop\SignalFood\SignalFood\EntityLayer\obj\Debug\net6.0\re
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\EntityLayer\obj\Debug\net6.0\EntityLayer.sourcelink.json
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.AssemblyReference.cache
