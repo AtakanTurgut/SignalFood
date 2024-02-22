@@ -41,11 +41,16 @@ namespace SignalFoodApi.Controllers
         {
             _contactService.TAdd(new Contact()
             {
-                FooterDescription = createContactDto.FooterDescription,
-                Location = createContactDto.Location,
+				FooterTitle = createContactDto.FooterTitle,
+				FooterDescription = createContactDto.FooterDescription,
+				Location = createContactDto.Location,
                 Mail = createContactDto.Mail,
-                Phone = createContactDto.Phone
-            });
+                Phone = createContactDto.Phone,
+
+				OpenDaysTitle = createContactDto.OpenDaysTitle,
+				OpenDaysDescription = createContactDto.OpenDaysDescription,
+				OpenHours = createContactDto.OpenHours,
+			});
 
             return Ok("İletişim Bilgisi Eklendi.");
         }
@@ -65,10 +70,15 @@ namespace SignalFoodApi.Controllers
             _contactService.TUpdate(new Contact()
             {
                 ContactId = updateContactDto.ContactId,
+                FooterTitle = updateContactDto.FooterTitle,
                 FooterDescription = updateContactDto.FooterDescription,
                 Location = updateContactDto.Location,
                 Mail = updateContactDto.Mail,
-                Phone = updateContactDto.Phone
+                Phone = updateContactDto.Phone,
+
+                OpenDaysTitle = updateContactDto.OpenDaysTitle,
+                OpenDaysDescription = updateContactDto.OpenDaysDescription,
+                OpenHours = updateContactDto.OpenHours,
             });
 
             return Ok("İletişim Bilgisi Güncellendi!");

@@ -44,7 +44,8 @@ namespace SignalFoodApi.Controllers
                 Amount = createDiscountDto.Amount,
                 Description = createDiscountDto.Description,
                 Title = createDiscountDto.Title,
-                ImageUrl = createDiscountDto.ImageUrl
+                ImageUrl = createDiscountDto.ImageUrl,
+                Status = false
             });
 
             return Ok("İndirim Eklendi.");
@@ -68,10 +69,27 @@ namespace SignalFoodApi.Controllers
                 Amount = updateDiscountDto.Amount,
                 Description = updateDiscountDto.Description,
                 Title = updateDiscountDto.Title,
-                ImageUrl = updateDiscountDto.ImageUrl
+                ImageUrl = updateDiscountDto.ImageUrl,
+                Status = false
             });
 
             return Ok("İndirim Güncellendi.");
+        }
+
+        [HttpGet("ChangeStatusToTrue/{id}")]
+        public IActionResult ChangeStatusToTrue(int id)
+        {
+            _discountService.TChangeStatusToTrue(id);
+
+            return Ok("İndirim Aktifleştirildi!");
+        }
+
+        [HttpGet("ChangeStatusToFalse/{id}")]
+        public IActionResult ChangeStatusToFalse(int id)
+        {
+            _discountService.TChangeStatusToFalse(id);
+
+            return Ok("İndirim Pasifleştirildi!");
         }
 
     }

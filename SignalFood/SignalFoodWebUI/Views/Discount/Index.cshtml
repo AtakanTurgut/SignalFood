@@ -3,6 +3,7 @@
 @{
 	ViewData["Title"] = "Index";
 	Layout = "~/Views/AdminLayout/Index.cshtml";
+	int count = 0;
 }
 
 <div class="content">
@@ -16,7 +17,7 @@
 					</div>
 					<div class="card-body">
 						<div class="card-sub">
-							Ana sayfa bütünlüğü için listede sadece iki tane İndirim olması gerekmektedir!
+							Ana sayfa bütünlüğü için listede sadece <strong>2 adet İndirim</strong> olması gerekmektedir!
 						</div>
 						<table class="table mt-3">
 							<thead>
@@ -33,12 +34,15 @@
 							<tbody>
 								@foreach (var item in Model)
 								{
+									count++;
 									<tr>
-										<td>@item.DiscountId</td>
+										<th>@count</th>
 										<td>@item.Title</td>
 										<td>@item.Description</td>
 										<td>@item.Amount</td>
-										<td>İndirim Aktif</td>
+										<td>@item.Status</td>
+										<td><a href="/Discount/ChangeStatusToTrue/@item.DiscountId" class="btn btn-success">Aktifleştir</a></td>
+										<td><a href="/Discount/ChangeStatusToFalse/@item.DiscountId" class="btn btn-warning">Pasifleştir</a></td>
 										<td><a href="/Discount/UpdateDiscount/@item.DiscountId" class="btn btn-info">Güncelle</a></td>
 										<td><a href="/Discount/DeleteDiscount/@item.DiscountId" class="btn btn-danger">Sil</a></td>
 									</tr>
