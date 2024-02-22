@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OG91tyvCjAiYRqkrv2tli61yqjg1iDxQFddH50XeoZo=",
+  "Hash": "G6NDEpJK1Tb2r0jPplagoo29BlT058uyccADPTIKah4=",
   "Source": "SignalFoodWebUI",
   "BasePath": "_content/SignalFoodWebUI",
   "Mode": "Default",
@@ -699,6 +699,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\feane-1.0.0\\menu.html"
+    },
+    {
+      "Identity": "C:\\Users\\Excalibur\\Desktop\\SignalFood\\SignalFood\\SignalFoodWebUI\\wwwroot\\js\\chat.js",
+      "SourceId": "SignalFoodWebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Excalibur\\Desktop\\SignalFood\\SignalFood\\SignalFoodWebUI\\wwwroot\\",
+      "BasePath": "_content/SignalFoodWebUI",
+      "RelativePath": "js/chat.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chat.js"
     },
     {
       "Identity": "C:\\Users\\Excalibur\\Desktop\\SignalFood\\SignalFood\\SignalFoodWebUI\\wwwroot\\js\\site.js",
