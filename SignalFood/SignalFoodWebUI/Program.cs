@@ -1,6 +1,15 @@
+using DataAccessLayer.Concrete;
+using EntityLayer.Entities;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+// Registration
+builder.Services.AddDbContext<SignalContext>();
+builder.Services.AddIdentity<AppUser, AppRole>()
+    .AddEntityFrameworkStores<SignalContext>();
+
 builder.Services.AddControllersWithViews();
 
 /**/
