@@ -125,5 +125,21 @@ namespace SignalFoodApi.Hubs
 			await Clients.All.SendAsync("ReceiveMessage", user, message);
 		}
 
+		public static int ClientCount { get; set; } = 0;
+        public override async Task OnConnectedAsync()
+        {
+			// client sayısını gösterecek.
+			ClientCount++;
+			await Clients.All.SendAsync("ReceiveClientCount", ClientCount);
+            await base.OnConnectedAsync();
+        }
+
+        public override async Task OnDisconnectedAsync(Exception? exception)
+        {
+            ClientCount--;
+			await Clients.All.SendAsync("ReceiveClientCount", ClientCount);
+			await base.OnDisconnectedAsync(exception);
+        }
+
     }
 }

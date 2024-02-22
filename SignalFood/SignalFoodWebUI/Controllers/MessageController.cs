@@ -8,5 +8,10 @@ namespace SignalFoodWebUI.Controllers
         {
             return View();
         }
+
+        public IActionResult ClientUserCount()
+        {
+            return View();
+        }
     }
 }
