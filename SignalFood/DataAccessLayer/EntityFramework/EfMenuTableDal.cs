@@ -22,5 +22,24 @@ namespace DataAccessLayer.EntityFramework
 
 			return context.MenuTables.Count();
 		}
+
+		public void MenuTableStatusFalse(int id)
+		{
+			using var context = new SignalContext();
+			var values = context.MenuTables.Find(id);
+			values.Status = false;
+
+			context.SaveChanges();
+		}
+
+		public void MenuTableStatusTrue(int id)
+		{
+			using var context = new SignalContext();
+			var values = context.MenuTables.Find(id);
+			values.Status = true;
+
+			context.SaveChanges();
+		}
+
 	}
 }

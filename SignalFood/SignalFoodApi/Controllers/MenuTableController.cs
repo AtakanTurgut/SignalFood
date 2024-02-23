@@ -77,5 +77,21 @@ namespace SignalFoodApi.Controllers
 			return Ok("Masa Güncellendi!");
 		}
 
+		[HttpGet("MenuTableStatusFalse/{id}")]
+		public IActionResult MenuTableStatusFalse(int id)
+		{
+			_menuTableService.TMenuTableStatusFalse(id);
+
+			return Ok("Masa Aktifleştirildi.");
+		}
+
+		[HttpGet("MenuTableStatusTrue/{id}")]
+		public IActionResult MenuTableStatusTrue(int id)
+		{
+			_menuTableService.TMenuTableStatusTrue(id);
+
+			return Ok("Masa Pasifleştirildi.");
+		}
+
 	}
 }

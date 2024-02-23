@@ -119,5 +119,21 @@ namespace SignalFoodWebUI.Controllers
             return View();
         }
 
-    }
+		public async Task<IActionResult> MenuTableStatusFalse(int id)
+		{
+			var client = _httpClientFactory.CreateClient();
+			await client.GetAsync($"https://localhost:7116/api/MenuTable/MenuTableStatusFalse/{id}");
+
+			return RedirectToAction("Index");
+		}
+
+		public async Task<IActionResult> MenuTableStatusTrue(int id)
+		{
+			var client = _httpClientFactory.CreateClient();
+			await client.GetAsync($"https://localhost:7116/api/MenuTable/MenuTableStatusTrue/{id}");
+
+			return RedirectToAction("Index");
+		}
+
+	}
 }

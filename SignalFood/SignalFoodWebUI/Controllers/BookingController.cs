@@ -55,7 +55,27 @@ namespace SignalFoodWebUI.Controllers
             return View();
         }
 
-        public async Task<IActionResult> DeleteBooking(int id)
+
+		[HttpPost]
+		public async Task<IActionResult> CreateBookingForUser(CreateBookingDto createBookingDto)
+		{
+			createBookingDto.Description = "Rezervasyon Alındı.";
+
+			var client = _httpClientFactory.CreateClient();
+			var jsonData = JsonConvert.SerializeObject(createBookingDto); // string -> json
+
+			StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+			var responseMessage = await client.PostAsync("https://localhost:7116/api/Booking", stringContent);
+
+			if (responseMessage.IsSuccessStatusCode)
+			{
+				return RedirectToAction("Index", "Default");
+			}
+
+			return RedirectToAction("Index", "BookATable");
+		}
+
+		public async Task<IActionResult> DeleteBooking(int id)
         {
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.DeleteAsync($"https://localhost:7116/api/Booking/{id}");

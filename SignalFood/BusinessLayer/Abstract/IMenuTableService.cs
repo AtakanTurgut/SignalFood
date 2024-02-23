@@ -10,5 +10,8 @@ namespace BusinessLayer.Abstract
 	public interface IMenuTableService : IGenericService<MenuTable>
 	{
 		int TMenuTableCount();
+
+		void TMenuTableStatusTrue(int id);
+		void TMenuTableStatusFalse(int id);
 	}
 }

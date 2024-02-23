@@ -43,6 +43,16 @@ namespace BusinessLayer.Concrete
 			return _menuTableDal.MenuTableCount();
 		}
 
+		public void TMenuTableStatusFalse(int id)
+		{
+			_menuTableDal.MenuTableStatusFalse(id);
+		}
+
+		public void TMenuTableStatusTrue(int id)
+		{
+			_menuTableDal.MenuTableStatusTrue(id);
+		}
+
 		public void TUpdate(MenuTable entity)
 		{
 			_menuTableDal.Update(entity);

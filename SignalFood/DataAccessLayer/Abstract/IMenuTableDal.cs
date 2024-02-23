@@ -10,5 +10,8 @@ namespace DataAccessLayer.Abstract
 	public interface IMenuTableDal : IGenericDal<MenuTable>
 	{
 		int MenuTableCount();
+
+		void MenuTableStatusTrue(int id);
+		void MenuTableStatusFalse(int id);
 	}
 }

@@ -6,8 +6,60 @@
 	int count = 0;
 }
 
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
+
 <div class="content">
 	<div class="container-fluid">
+
+		<script type="text/javascript">
+            $(document).ready(() => {
+                var connection = new signalR.HubConnectionBuilder()
+                    .withUrl("https://localhost:7116/SignalRHub").build();
+                $("#connstatus").text(connection.state);
+
+                connection.start().then(() => {
+                    $("#connstatus").text(connection.state);
+                    setInterval(() => {
+                        connection.invoke("GetMenuTableList");
+                    }, 1000);
+                }).catch((err) => { console.log(err) });
+
+                connection.on("ReceiveMenuTableList", (value) => {
+                    console.log(value);
+                    let tablehtml = `<table class="table mt-3"><thead>
+                                     <tr>
+                                     <th scope="col">#</th>
+                                     <th scope="col">Masa Numarası</th>
+                                     <th scope="col">Masa Durumu</th>
+                                     <th scope="col">Aktifleştir</th>
+                                     <th scope="col">Pasifleştir</th>
+									 <th scope="col">Güncelle</th>
+                                     <th scope="col">Sil</th>
+                                     </tr>
+                                     </thead>
+                                     <tbody>`
+                    $.each(value, (index, item) => {
+                        tablehtml += `<tr>
+                                      <th>${index + 1}</th>
+                                      <td>${item.tableNumber}</td>
+                                      <td>${item.status}</td>
+                                      <td><a href="/MenuTable/MenuTableStatusTrue/${item.menuTableId}" class="btn btn-success">Aktifleştir</a></td>
+                                      <td><a href="/MenuTable/MenuTableStatusFalse/${item.menuTableId}" class="btn btn-warning">Pasifleştir</a></td>
+                                      <td><a href="/MenuTable/UpdateMenuTable/${item.menuTableId}" class="btn btn-primary">Güncelle</a></td>
+									  <td><a href="/MenuTable/DeleteMenuTable/${item.menuTableId}" class="btn btn-danger">Sil</a></td>
+                                      </tr>`
+                    });
+                    tablehtml += "</tbody></table>";
+
+                    $("#menuTableList").html(tablehtml);
+                });
+            });
+        </script>
+
 		<h4 class="page-title">Masa İşlemleri</h4>
 		<div class="row">
 			<div class="col-md-12">
@@ -17,6 +69,9 @@
 					</div>
 					<div class="card-body">
 						<a asp-controller="MenuTable" asp-action="TableListByStatus" class="btn btn-success">Anlık Masa Durumları</a>
+
+                        <div id="menuTableList"></div>
+                        @*
 						<table class="table mt-3">
 							<thead>
 								<tr>
@@ -41,6 +96,7 @@
 								}
 							</tbody>
 						</table>
+                        *@
 						<a asp-controller="MenuTable" asp-action="CreateMenuTable" class="btn btn-primary">Masa Ekle</a>
 					</div>
 				</div>

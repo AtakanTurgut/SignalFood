@@ -105,6 +105,12 @@ namespace SignalFoodApi.Hubs
 			await Clients.All.SendAsync("ReceiveBookingList", count);
         }
 
+		public async Task GetMenuTableList()
+		{
+			var count = _menuTableService.TGetAll();
+			await Clients.All.SendAsync("ReceiveMenuTableList", count);
+		}
+
 		public async Task SendNotification()
 		{
             var count = _notificationService.TNotificationCountByStatusFalse();

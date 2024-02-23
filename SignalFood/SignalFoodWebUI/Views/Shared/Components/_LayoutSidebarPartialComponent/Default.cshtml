@@ -17,8 +17,8 @@
 				<div class="collapse in" id="collapseExample" aria-expanded="true" style="">
 					<ul class="nav">
 						<li>
-							<a href="#profile">
-								<span class="link-collapse">Menüyü Gör</span>
+							<a href="/Register/Index">
+								<span class="link-collapse">Yeni Kullanıcı</span>
 							</a>
 						</li>
 						<li>
@@ -43,10 +43,9 @@
 				</a>
 			</li>
 			<li class="nav-item">
-				<a href="components.html">
-					<i class="la la-table"></i>
+				<a target="_blank" asp-controller="Menu" asp-action="Index">
+					<i class="la la-lemon-o"></i>
 					<p>Menüyü Gör</p>
-					<span class="badge badge-count">14</span>
 				</a>
 			</li>
 			<li class="nav-item">
@@ -74,6 +73,18 @@
 				</a>
 			</li>
 			<li class="nav-item">
+				<a asp-controller="Testimonial" asp-action="Index">
+					<i class="la la-trophy"></i>
+					<p>Yorumlar</p>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a target="_blank" asp-controller="Message" asp-action="Index">
+					<i class="la la-comments"></i>
+					<p>Mesajlaşma</p>
+				</a>
+			</li>
+			<li class="nav-item">
 				<a asp-controller="About" asp-action="Index">
 					<i class="la la-font"></i>
 					<p>Hakkımızda</p>
@@ -93,32 +104,20 @@
 			</li>
 			<li class="nav-item">
 				<a asp-controller="Feature" asp-action="Index">
-					<i class="la la-fonticons"></i>
+					<i class="la la-binoculars"></i>
 					<p>Öne Çıkanlar</p>
 				</a>
 			</li>
 			<li class="nav-item">
 				<a asp-controller="SocialMedia" asp-action="Index">
-					<i class="la la-fonticons"></i>
+					<i class="la la-globe"></i>
 					<p>Sosyal Medya</p>
 				</a>
 			</li>
 			<li class="nav-item">
-				<a asp-controller="Testimonial" asp-action="Index">
-					<i class="la la-fonticons"></i>
-					<p>Yorumlar</p>
-				</a>
-			</li>
-			<li class="nav-item">
-				<a href="icons.html">
-					<i class="la la-fonticons"></i>
-					<p>Çıkış Yap</p>
-				</a>
-			</li>
-			<li class="nav-item">
-				<a href="icons.html">
-					<i class="la la-fonticons"></i>
-					<p>Ayarlar</p>
+				<a asp-controller="ProgressBar" asp-action="Index">
+					<i class="la la-bar-chart"></i>
+					<p>Durum Çubuğu</p>
 				</a>
 			</li>
 			
