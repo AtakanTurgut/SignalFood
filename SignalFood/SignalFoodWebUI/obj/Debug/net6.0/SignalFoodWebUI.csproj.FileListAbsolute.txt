@@ -260,3 +260,4 @@ C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\bin\Debug\net6.
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\bin\Debug\net6.0\DataAccessLayer.pdb
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\bin\Debug\net6.0\EntityLayer.pdb
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\bin\Debug\net6.0\DtoLater.pdb
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\bin\Debug\net6.0\QRCoder.dll

@@ -14,7 +14,8 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.25",
           "Microsoft.EntityFrameworkCore": "6.0.25",
           "Microsoft.EntityFrameworkCore.Design": "6.0.25",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.16"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.16",
+          "QRCoder": "1.0.0.0"
         },
         "runtime": {
           "SignalFoodWebUI.dll": {}
@@ -2676,6 +2677,14 @@
         "runtime": {
           "EntityLayer.dll": {}
         }
+      },
+      "QRCoder/1.0.0.0": {
+        "runtime": {
+          "QRCoder.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -4370,6 +4379,11 @@
     },
     "EntityLayer/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QRCoder/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
