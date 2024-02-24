@@ -1,11 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using SignalFoodWebUI.Dtos.BasketDtos;
 using System.Text;
 
 namespace SignalFoodWebUI.Controllers
 {
-    public class BasketController : Controller
+	[AllowAnonymous]
+	public class BasketController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
 

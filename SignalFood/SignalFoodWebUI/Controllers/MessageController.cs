@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace SignalFoodWebUI.Controllers
 {
-    public class MessageController : Controller
+	[AllowAnonymous]
+	public class MessageController : Controller
     {
         public IActionResult Index()
         {

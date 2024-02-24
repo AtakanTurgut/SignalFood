@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using SignalFoodWebUI.Dtos.BookingDtos;
 using System.Net.Http;
@@ -6,7 +7,8 @@ using System.Text;
 
 namespace SignalFoodWebUI.Controllers
 {
-    public class BookATableController : Controller
+	[AllowAnonymous]
+	public class BookATableController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
 

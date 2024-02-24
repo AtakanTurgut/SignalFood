@@ -1,7 +1,14 @@
 using DataAccessLayer.Concrete;
 using EntityLayer.Entities;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Authentication
+var requireAuthorizePolicy = new AuthorizationPolicyBuilder()
+    .RequireAuthenticatedUser().Build();
 
 // Add services to the container.
 
@@ -10,7 +17,16 @@ builder.Services.AddDbContext<SignalContext>();
 builder.Services.AddIdentity<AppUser, AppRole>()
     .AddEntityFrameworkStores<SignalContext>();
 
-builder.Services.AddControllersWithViews();
+// Authentication
+builder.Services.AddControllersWithViews(opt =>
+{
+    opt.Filters.Add(new AuthorizeFilter(requireAuthorizePolicy));
+});
+
+builder.Services.ConfigureApplicationCookie(opt =>
+{
+    opt.LoginPath = "/Login/Index";
+});
 
 /**/
 builder.Services.AddHttpClient();
@@ -30,6 +46,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+// Authentication
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

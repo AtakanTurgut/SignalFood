@@ -23,6 +23,7 @@
 									<th scope="col">#</th>
 									<th scopWe="col">Başlık</th>
 									<th scope="col">Sosyal Medya Adresi</th>
+									<th scope="col">İkon</th>
 									<th scope="col">Güncelle</th>
 									<th scope="col">Sil</th>
 								</tr>
@@ -35,6 +36,7 @@
 										<th>@count</th>
 										<td>@item.Title</td>
 										<td>@item.Url</td>
+										<td>@item.Icon</td>
 										<td><a href="/SocialMedia/UpdateSocialMedia/@item.SocialMediaId" class="btn btn-info">Güncelle</a></td>
 										<td><a href="/SocialMedia/DeleteSocialMedia/@item.SocialMediaId" class="btn btn-danger">Sil</a></td>
 									</tr>

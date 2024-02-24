@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using SignalFoodWebUI.Dtos.BasketDtos;
 using SignalFoodWebUI.Dtos.ProductDtos;
@@ -6,7 +7,8 @@ using System.Text;
 
 namespace SignalFoodWebUI.Controllers
 {
-    public class MenuController : Controller
+	[AllowAnonymous]
+	public class MenuController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
 
