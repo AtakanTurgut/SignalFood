@@ -65,6 +65,6 @@ Use this commands for the `Migration Operations`:
     PM> Drop-Database
 ```
 
-QR Code
+### QR Code
 ![](signalfood-menu.png)
 
