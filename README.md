@@ -45,6 +45,7 @@ Admin Page  =  https://localhost:7281//Statistic/Index
     -- Microsoft.AspNetCore.Identity.EntityFrameworkCore 6.0.25
     -- Microsoft.EntityFrameworkCore 6.0.25
     -- Microsoft.EntityFrameworkCore.Design 6.0.25
+    --- NETCore.MailKit 2.1.0
 ```
 
 Use this commands for the `Migration Operations`:
@@ -67,4 +68,13 @@ Use this commands for the `Migration Operations`:
 
 ### QR Code
 ![](signalfood-menu.png)
+<br />
+```
+UI --> Dependencies --> Add Project Reference --> Browse... --> QRCoder.dll Add
+```
 
+### Google Key
+```
+Manage Your Google Account --> App Passwords --> Application Name
+Google Hesabınızı Yönetin  --> Uygulama Şifreleri --> Uygulama Adı
+```

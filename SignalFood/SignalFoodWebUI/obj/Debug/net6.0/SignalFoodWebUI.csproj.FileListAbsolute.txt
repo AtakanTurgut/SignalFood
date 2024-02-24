@@ -261,3 +261,7 @@ C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\bin\Debug\net6.
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\bin\Debug\net6.0\EntityLayer.pdb
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\bin\Debug\net6.0\DtoLater.pdb
 C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\bin\Debug\net6.0\QRCoder.dll
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\bin\Debug\net6.0\MailKit.dll
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\bin\Debug\net6.0\MimeKit.dll
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\bin\Debug\net6.0\NETCore.MailKit.dll
+C:\Users\Excalibur\Desktop\SignalFood\SignalFood\SignalFoodWebUI\bin\Debug\net6.0\BouncyCastle.Crypto.dll
