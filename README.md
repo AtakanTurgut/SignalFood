@@ -1,4 +1,13 @@
 # SignalFood
+1. Start from Api - Ctrl F5
+2. Run after UI Page - Ctrl Shift W
+<br />
+
+## Addresses
+```cs
+Web Site    =  https://localhost:7281/Default/Index
+Admin Page  =  https://localhost:7281//Statistic/Index
+```
 
 ### Project Layers
 ```cs
@@ -8,12 +17,6 @@
     SignalFoodApi   => BusinessLayer + DataAccessLayer + EntityLayer + DtoLayer
     
     SignalFoodWebUI => DataAccessLayer + EntityLayer + DtoLayer
-```
-
-## Addresses
-```cs
-Web Site    =  https://localhost:7281/Default/Index
-Admin Page  =  https://localhost:7281//Statistic/Index
 ```
 
 ### Packages of SignalFood Project Layers
@@ -67,7 +70,7 @@ Use this commands for the `Migration Operations`:
 ```
 
 ### QR Code
-![](signalfood-menu.png)
+![](pictures/signalfood-menu.png)
 <br />
 ```
 UI --> Dependencies --> Add Project Reference --> Browse... --> QRCoder.dll Add
@@ -78,3 +81,10 @@ UI --> Dependencies --> Add Project Reference --> Browse... --> QRCoder.dll Add
 Manage Your Google Account --> App Passwords --> Application Name
 Google Hesabınızı Yönetin  --> Uygulama Şifreleri --> Uygulama Adı
 ```
+
+## SignalFood Project [Images](https://github.com/AtakanTurgut/SignalFood/tree/unique/pictures)
+### 1. Home Page:  https://localhost:7281/Default/Index
+![](pictures/HomePage.PNG)
+
+### 2. Admin Page:  https://localhost:7281//Statistic/Index
+![](pictures/StatisticPage.PNG)
