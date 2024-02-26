@@ -1,7 +1,6 @@
 # SignalFood
 1. Start from Api - Ctrl F5
 2. Run after UI Page - Ctrl Shift W
-<br />
 
 ## Addresses
 ```cs
