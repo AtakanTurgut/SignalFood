@@ -95,5 +95,11 @@ namespace SignalFoodApi.Controllers
             return Ok("Rezervasyon İptal Edildi.");
         }
 
-    }
+		[HttpGet("BookingCount")]
+		public IActionResult BookingCount()
+		{
+			return Ok(_bookingService.TBookingCount());
+		}
+
+	}
 }

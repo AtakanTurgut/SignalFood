@@ -23,7 +23,12 @@ namespace BusinessLayer.Concrete
             _bookingDal.Add(entity);
         }
 
-        public void TBookingStatusApproved(int id)
+		public int TBookingCount()
+		{
+			return _bookingDal.BookingCount();
+		}
+
+		public void TBookingStatusApproved(int id)
         {
             _bookingDal.BookingStatusApproved(id);
         }

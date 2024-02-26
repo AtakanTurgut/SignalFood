@@ -11,5 +11,6 @@ namespace BusinessLayer.Abstract
     {
         void TBookingStatusApproved(int id);
         void TBookingStatusCancelled(int id);
-    }
+        int TBookingCount();
+	}
 }

@@ -143,5 +143,23 @@ namespace SignalFoodApi.Controllers
 			return Ok(_productService.TProductAvgPriceByHamburger());
 		}
 
+		[HttpGet("ProductPriceByBigKing")]
+		public IActionResult ProductPriceByBigKing()
+		{
+			return Ok(_productService.TProductPriceByBigKing());
+		}
+
+		[HttpGet("TotalPriceByDrinkCategory")]
+		public IActionResult TotalPriceByDrinkCategory()
+		{
+			return Ok(_productService.TTotalPriceByDrinkCategory());
+		}
+
+		[HttpGet("TotalPriceBySaladCategory")]
+		public IActionResult TotalPriceBySaladCategory()
+		{
+			return Ok(_productService.TTotalPriceBySaladCategory());
+		}
+
 	}
 }

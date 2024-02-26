@@ -97,6 +97,36 @@ namespace SignalFoodApi.Hubs
 
 			var count3 = _menuTableService.TMenuTableCount();
 			await Clients.All.SendAsync("ReceiveMenuTableCount", count3);
+
+			var count4 = _productService.TProductPriceAvg();
+			await Clients.All.SendAsync("ReceiveProductPriceAvg", count4);
+
+			var count5 = _productService.TProductAvgPriceByHamburger();
+			await Clients.All.SendAsync("ReceiveProductAvgPriceByHamburger", count5);
+
+			var count6 = _productService.TProductCountByCategoryNameDrink();
+			await Clients.All.SendAsync("ReceiveProductCountByCategoryNameDrink", count6);
+
+			var count7 = _productService.TProductPriceByBigKing();
+			await Clients.All.SendAsync("ReceiveProductPriceByBigKing", count7);
+
+			var count8 = _orderService.TTotalOrderCount();
+			await Clients.All.SendAsync("ReceiveTotalOrderCount", count8);
+
+			var count9 = _productService.TTotalPriceByDrinkCategory();
+			await Clients.All.SendAsync("ReceiveTotalPriceByDrinkCategory", count9);
+
+			var count10 = _productService.TTotalPriceBySaladCategory();
+			await Clients.All.SendAsync("ReceiveTotalPriceBySaladCategory", count10);
+
+			var count11 = _categoryService.TCategoryCount();
+			await Clients.All.SendAsync("ReceiveCategoryCount", count11);
+
+			var count12 = _productService.TProductCount();
+			await Clients.All.SendAsync("ReceiveProductCount", count12);
+
+			var count13 = _bookingService.TBookingCount();
+			await Clients.All.SendAsync("ReceiveProductCount", count13);
 		}
 
 		public async Task GetBookingList()

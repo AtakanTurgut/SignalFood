@@ -16,7 +16,14 @@ namespace DataAccessLayer.EntityFramework
         {
         }
 
-        public void BookingStatusApproved(int id)
+		public int BookingCount()
+		{
+			using var context = new SignalContext();
+
+			return context.Bookings.Count();
+		}
+
+		public void BookingStatusApproved(int id)
         {
             using var context = new SignalContext();
             var values = context.Bookings.Find(id);

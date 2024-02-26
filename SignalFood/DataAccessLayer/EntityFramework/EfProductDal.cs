@@ -81,5 +81,28 @@ namespace DataAccessLayer.EntityFramework
 				.Where(y => y.CategoryName == "Hamburger")
 				.Select(z => z.CategoryId).FirstOrDefault())).Average(w => w.Price);
 		}
+
+		public decimal ProductPriceByBigKing()
+		{
+			using var context = new SignalContext();
+
+			return context.Products.Where(x => x.ProductName == "Big King").Select(y => y.Price).FirstOrDefault();
+		}
+
+		public decimal TotalPriceByDrinkCategory()
+		{
+			using var context = new SignalContext();
+			int id = context.Categories.Where(x => x.CategoryName == "İçecek").Select(y => y.CategoryId).FirstOrDefault();
+
+			return context.Products.Where(x => x.CategoryId == id).Sum(y => y.Price);
+		}
+
+		public decimal TotalPriceBySaladCategory()
+		{
+			using var context = new SignalContext();
+			int id = context.Categories.Where(x => x.CategoryName == "Salata").Select(y => y.CategoryId).FirstOrDefault();
+
+			return context.Products.Where(x => x.CategoryId == id).Sum(y => y.Price);
+		}
 	}
 }

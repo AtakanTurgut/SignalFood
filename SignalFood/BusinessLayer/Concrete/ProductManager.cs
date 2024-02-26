@@ -82,5 +82,20 @@ namespace BusinessLayer.Concrete
 		{
             return _productDal.ProductAvgPriceByHamburger();
 		}
+
+		public decimal TProductPriceByBigKing()
+		{
+			return _productDal.ProductPriceByBigKing();
+		}
+
+		public decimal TTotalPriceByDrinkCategory()
+		{
+			return _productDal.TotalPriceByDrinkCategory();
+		}
+
+		public decimal TTotalPriceBySaladCategory()
+		{
+			return _productDal.TotalPriceBySaladCategory();
+		}
 	}
 }
